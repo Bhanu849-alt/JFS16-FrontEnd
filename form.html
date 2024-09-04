@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form File</title>
+</head>
+<body>
+   <div>
+    <form>
+        <h1>Student Details Form</h1>
+        <label> Name : </label>
+        <input type="text" placeholder="Enter Your Name" required/>
+    </form>
+    <br/> <br/>
+        <label>Date Of Birth :</label>
+        <input type="date"/>
+    <br/> <br/> <br/>
+        <label>Age : </label>
+        <input type="number" placeholder="Enter Your Age" required/>
+        <br/> <br/> <br/>
+        <label>College Name :</label>
+        <input type="text" placeholder="Enter Your Collegename"required/>
+        <br/> <br/> <br/>
+        <label> PhoneNumber :</label>
+        <input type="number" placeholder="Enter Your Phonenumber" required/>
+        <br/> <br/> <br/>
+        <fieldset style= "width:20%">
+          <legend> Gender</legend>
+          <input type="radio" id="Male" name="Gender" value="Male"/>
+          <label> Male</label><br/>
+          <input type="radio" id="Female" name="Gender" value="Female"/>
+          <label> Female</label>
+        </fieldset>
+        <br/> <br/>
+        <fieldset style="width:20%">
+            <legend> Skills</legend>
+            <input type="checkbox" id="HTML" name="Skills" value="Html"/>
+            <label> HTML</label>
+            <br/>
+            <input type="checkbox" id="CSS" name="Skills" value="CSS"/>
+            <label> CSS</label>
+            <br/>
+            <input type="checkbox" id="JAVASCRIPT" name="Skills" value="JAVASCRIPT"/>
+            <label> JAVASCRIPT</label>
+            <br/>
+            <input type="checkbox" id="JAVA" name="Skills" value="JAVA"/>
+            <label> JAVA</label>
+            <br/>
+            <input type="checkbox" id="SQL" name="Skills" value="SQL"/>
+            <label> SQL</label>
+            <br/>
+            <input type="checkbox" id="BOOSTRAP" name="Skills" value="BOOSTRAP"/>
+            <label> BOOSTRAP</label>  
+        </fieldset>
+        <br/> <br/>
+ <label> Select Role: </label>
+ <select>
+    <option value="student">Student</option>
+    <option value="employee">Employee</option>
+ </select>
+ <br/><br/><br/>
+ <label> Resume:</label>
+ <input type="file"
+ accept=".pdf, .doc, .docx"
+ id="resume" name="resume" required/>
+ <br/> <br/><br/>
+ <label> Gmail:</label>
+ <input type="text" placeholder="Enter your Email" required/>
+ <br/> <br/> <br/>
+ <label> Password:</label>
+ <input type="password" placeholder="Enter Your Password" required/>
+ <br/> <br/> <br/>
+ <button> Submit</button>
+    </form>
+   </div> 
+</body>
+</html>
